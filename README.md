@@ -1,4 +1,5 @@
-# Práctica Mocha y chai.  
+# Práctica Mocha y chai.
+[![Build Status](https://travis-ci.org/alu0100816761/karma-y-travis-nataliealexis.svg?branch=master)](https://travis-ci.org/alu0100816761/karma-y-travis-nataliealexis)
 
 En esta práctica se ha hecho uso de Mocha, Chai, Blanket y gulp.  
 
@@ -18,5 +19,3 @@ En esta práctica se ha hecho uso de Mocha, Chai, Blanket y gulp.
 **Campus Virtual**
 
 * [Descripción de la práctica](https://campusvirtual.ull.es/1516/mod/page/view.php?id=184132)
-
-[![Build Status](https://travis-ci.org/alu0100816761/karma-y-travis-nataliealexis.svg?branch=master)](https://travis-ci.org/alu0100816761/karma-y-travis-nataliealexis)
