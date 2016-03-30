@@ -34,7 +34,12 @@ module.exports = function(config) {
 
     plugins : [
       'karma-mocha',
-      'karma-chai'
+      'karma-chai',
+      'karma-chrome-launcher',
+      'karma-firefox-launcher',
+      'karma-html2js-preprocessor',
+      'karma-phantomjs-launcher',
+      'karma-safari-launcher'
     ],
 
     reporters: ['progress'],
