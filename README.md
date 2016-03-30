@@ -1,7 +1,7 @@
-# Práctica Mocha y chai.
+# Práctica Karma y Travis.
 [![Build Status](https://travis-ci.org/alu0100816761/karma-y-travis-nataliealexis.svg?branch=master)](https://travis-ci.org/alu0100816761/karma-y-travis-nataliealexis)
 
-En esta práctica se ha hecho uso de Mocha, Chai, Blanket y gulp.  
+En esta práctica se ha hecho uso de Karma y Travis.  
 
 **Repositorio GitHuB**
 
