@@ -38,6 +38,6 @@
     "minimax": "*",
     "mocha": "*",
     "optimist": "*",
-    "phantomjs-prebuilt": "^2.1.5"
+    "phantomjs-prebuilt": "^2.1.7"
   }
 }

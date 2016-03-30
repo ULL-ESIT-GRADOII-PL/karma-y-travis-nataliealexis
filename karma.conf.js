@@ -28,9 +28,9 @@ module.exports = function(config) {
       'gulpfile.js'
     ],
 
-    //preprocessors: {
-    //  'test.html': ['html2js']
-    //},
+    preprocessors: {
+      'test.html': ['html2js']
+    },
 
     plugins : [
       'karma-mocha',
