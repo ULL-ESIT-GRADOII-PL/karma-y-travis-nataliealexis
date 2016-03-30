@@ -15,7 +15,12 @@ module.exports = function(config) {
       'conversor_test.js',
       'vendor/chai.js',
       'vendor/mocha.css',
-      'vendor/mocha.js'
+      'vendor/mocha.js',
+      'vendor/sinon-1.17.3.js',
+      'vendor/blanket.min.js',
+      'vendor/mocha-blanket.js',
+      'vendor/sinon-1.7.1.js',
+      'xregexp.js'
     ],
 
     client: {
@@ -52,7 +57,7 @@ module.exports = function(config) {
 
     autoWatch: true,
 
-    browsers: ['Firefox', 'PhantomJS', 'Chrome', 'Safari'],
+    browsers: ['PhantomJS', 'Chrome', 'Safari'],      // Firefox fue eliminado por errores de version
 
     captureTimeout: 60000,
 
