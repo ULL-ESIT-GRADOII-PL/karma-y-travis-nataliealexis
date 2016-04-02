@@ -1,7 +1,9 @@
+var regexpsimple = /^\s*([-+]?\d+(?:\.\d*)?(?:e[-+]?\d+)?)\s*([a-zA-Z])\s*$/i;
+
 function Medida (valor,tipo)
 {
-    var regexp = /^\s*([-+]?\d+(?:\.\d*)?(?:e[-+]?\d+)?)\s*([a-zA-Z])\s*$/i;
-    var val = regexp.exec(valor);
+  if(tipo === undefined) {
+    var val = regexpsimple.exec(valor);
     if (val) {
       this.valor = parseFloat(val[1]);
       this.tipo = val[2];
@@ -9,6 +11,10 @@ function Medida (valor,tipo)
       this.valor = valor;
       this.tipo = tipo;
     }
+  } else {
+    this.valor = valor;
+    this.tipo = tipo;
+  }
 }
 
 Medida.match = function (valor) {
