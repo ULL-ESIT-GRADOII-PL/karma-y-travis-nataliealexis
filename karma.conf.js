@@ -51,6 +51,10 @@ module.exports = function(config) {
       Chrome_travis_ci: {
         base: 'Chrome',
         flags: ['--no-sandbox']
+      },
+      Safari_travis_ci: {
+        base: 'Safari',
+        flags: ['--no-sandbox']
       }
     },
 
@@ -64,7 +68,7 @@ module.exports = function(config) {
 
     autoWatch: true,
 
-    browsers: ['PhantomJS', 'Chrome_travis_ci', 'Safari'],      // Firefox fue eliminado por errores de version
+    browsers: ['PhantomJS', 'Chrome_travis_ci', 'Safari_travis_ci'],      // Firefox fue eliminado por errores de version
 
     captureTimeout: 60000,
 
