@@ -1,3 +1,5 @@
+measures = Medida.measures;
+
 function Temperatura(valor,tipo)
 {
   Medida.call(this, valor, tipo);
@@ -24,6 +26,8 @@ Celsius.prototype.toKelvin = function () {
   return result;
 }
 
+measures.c  = Celsius;
+
 function Kelvin(valor)
 {
   Temperatura.call(this, valor);
@@ -42,6 +46,8 @@ Kelvin.prototype.toFahrenheit = function () {
   return result;
 }
 
+measures.k = Kelvin;
+
 function Fahrenheit(valor)
 {
   Temperatura.call(this, valor);
@@ -59,3 +65,5 @@ Fahrenheit.prototype.toKelvin = function () {
   var result = ((this.valor - 32) / (9/5)) + 273.15;
   return result;
 }
+
+measures.f = Fahrenheit;
