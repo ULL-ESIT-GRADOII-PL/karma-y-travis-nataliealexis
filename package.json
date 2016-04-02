@@ -4,7 +4,7 @@
   "description": "Conversor javascript de tipos",
   "main": "conversor.js",
   "scripts": {
-    "test": "mocha test",
+    "chuchu": "mocha test",
     "chai": "curl https://raw.githubusercontent.com/chaijs/chai/master/chai.js -o test/chai.js"
   },
   "repository": {
@@ -35,7 +35,7 @@
     "karma-html2js-preprocessor": "^0.1.0",
     "karma-mocha": "^0.2.2",
     "karma-phantomjs-launcher": "^1.0.0",
-    "karma-safari-launcher": "^0.1.1",
+    "karma-safari-launcher": "~0.1",
     "karma-sinon": "^1.0.4",
     "minimax": "*",
     "mocha": "*",
@@ -45,7 +45,7 @@
     "karma": "~0.12"
   },
   "scripts": {
-   "test": "./node_modules/karma/bin/karma start --single-run --browsers PhantomJS"
+   "test": "./node_modules/karma/bin/karma start --single-run"
   }
 
 }
