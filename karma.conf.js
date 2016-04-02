@@ -47,6 +47,13 @@ module.exports = function(config) {
       'karma-safari-launcher'
     ],
 
+    customLaunchers: {
+      Chrome_travis_ci: {
+        base: 'Chrome',
+        flags: ['--no-sandbox']
+      }
+    },
+
     reporters: ['progress'],
 
     port: 9876,
@@ -57,7 +64,7 @@ module.exports = function(config) {
 
     autoWatch: true,
 
-    browsers: ['PhantomJS', 'Chrome', 'Safari'],      // Firefox fue eliminado por errores de version
+    browsers: ['PhantomJS', 'Chrome_travis_ci', 'Safari'],      // Firefox fue eliminado por errores de version
 
     captureTimeout: 60000,
 
