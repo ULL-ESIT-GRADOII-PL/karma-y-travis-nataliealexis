@@ -64,7 +64,7 @@ module.exports = function(config) {
 
     autoWatch: true,
 
-    browsers: ['PhantomJS', 'Chrome_travis_ci', 'Firefox'],      // Firefox fue eliminado por errores de version
+    browsers: ['PhantomJS', 'Chrome_travis_ci', 'Firefox'],      // Safari fue eliminado por errores de version
 
     captureTimeout: 60000,
 

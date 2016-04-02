@@ -37,7 +37,7 @@ describe("Clase Medida", function () {
       var conv = Medida.convertir('320e-1 f to c');
       expect(conv).to.equal('0.00 Celsius');
     });
-    it("deberia mostrar por un log si desconoce la conversion", function() {
+    it("deberia mostrar por un log si desconoce la conversion (SINON y EDGE)", function() {
       var conv = Medida.convertir('320e-1 f to p');
       sinon.assert.notCalled(console.error);
       sinon.assert.calledOnce(console.log);
