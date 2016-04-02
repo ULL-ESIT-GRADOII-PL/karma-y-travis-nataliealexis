@@ -53,8 +53,7 @@ module.exports = function(config) {
         flags: ['--no-sandbox']
       },
       Safari_travis_ci: {
-        base: 'Safari',
-        flags: ['--no-sandbox']
+        base: 'Safari'
       }
     },
 
